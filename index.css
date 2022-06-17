@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+main {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  min-height: 100vh;
+  
+}
+div {
+  height: 50vh;
+  border-radius: 3px;
+  
+}
+/* divided the whole content into 3 ad gave them equal height in the main tag */
+.top{
+  height: 10vh;
+  padding: 40px;
+  
+}
+.middle{
+  height: 10vh;
+  padding: 40px;
+  padding-top: 0px;
+}
+.bottom{
+  height: 10vh;
+  padding: 40px;
+  padding-top: 0px;
+}
+/* background color and button color */
+#one,
+.one {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+  
+}
+#two,
+.two {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+#three,
+.three {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
+}
+/* header color */
+h1,
+button {
+  color: hsl(0, 0%, 95%);
+  border: transparent;
+}
+/* text color */
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  
+}
+/* button designs */
+.one,
+.two,
+.three {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+button {
+  margin-top: 70px;
+}
+img{
+  padding-bottom: 30px;
+}
